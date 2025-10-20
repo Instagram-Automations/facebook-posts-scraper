@@ -61,7 +61,7 @@ This project automates the collection of Facebook post data without manual scrol
 
 <p align="center">
   <a href="https://bitbash.dev" target="_blank">
-    <img src="facebook-posts-bot.png" alt="facebook-posts-bot" width="95%">
+    <img src="facebook-posts-bot.png" alt="facebook-posts-bot" width="100%">
   </a>
 </p>
 
