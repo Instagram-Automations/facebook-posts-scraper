@@ -1,0 +1,8 @@
+{
+  "resultsLimit": 10,
+  "startUrls": [
+    { "url": "https://m.facebook.com/nytimes" }
+  ],
+  "maxRequestRetries": 3,
+  "downloadThumbnails": false
+}
