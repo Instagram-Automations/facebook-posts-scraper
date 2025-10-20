@@ -143,31 +143,11 @@ This project automates the collection of Facebook post data without manual scrol
 ---
 
 <p align="center">
-  <a href="https://t.me/devpilot1" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20Zeeshan%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:bitbash9@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-bitbash9@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
-
-<p align="center">
-  <strong>If you’re looking for a custom facebook-posts-scraper solution — let’s talk👆👆.</strong>
-</p>
-
-<p align="center">
 <a href="https://calendar.app.google/GyobA324GxBqe6en6" target="_blank">
   <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
 </a>
 </p>
 
----
 
 <!-- 💬 User Reviews Section (3 in a row with GIFs) -->
 <table>
