@@ -177,7 +177,6 @@ This project automates the collection of Facebook post data without manual scrol
     <!-- Review 1 -->
     <td align="center" width="33%" style="padding:10px;">
       <img src="media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      <h3 style="margin:10px 0 6px;">Facebook Posts Scraper Review</h3>
       <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
         “This scraper helped me gather thousands of Facebook posts effortlessly.  
         The setup was fast, and exports are super clean and well-structured.”
@@ -189,7 +188,6 @@ This project automates the collection of Facebook post data without manual scrol
     </td>
     <td align="center" width="33%" style="padding:10px;">
       <img src="media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      <h3 style="margin:10px 0 6px;">Data Quality & Accuracy</h3>
       <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
         “What impressed me most was how accurate the extracted data is.  
         Likes, comments, timestamps — everything aligns perfectly with real posts.”
@@ -201,7 +199,6 @@ This project automates the collection of Facebook post data without manual scrol
     </td>
     <td align="center" width="33%" style="padding:10px;">
       <img src="media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      <h3 style="margin:10px 0 6px;">Perfect for Market Research</h3>
       <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
         “It’s by far the best Facebook scraping tool I’ve used.  
         Ideal for trend tracking, competitor monitoring, and influencer insights.”
