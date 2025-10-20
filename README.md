@@ -119,7 +119,6 @@ This project automates the collection of Facebook post data without manual scrol
 - Social Intelligence: Collect historical post data to predict engagement and optimize future campaigns.
 - Academic Research: Analyze discourse, sentiment, and content dissemination across public pages.
 
----
 
 ## FAQs
 **Q:** Can it scrape posts from private Facebook groups or profiles?  
@@ -134,7 +133,6 @@ This project automates the collection of Facebook post data without manual scrol
 **Q:** Can I integrate this scraper with my data pipeline?  
 **A:** Yes, it can connect seamlessly with Google Sheets, Zapier, Slack, or any webhook/API-supported system.  
 
----
 
 ## Performance Benchmarks and Results
 **Speed:** Extracts up to **5,000 posts per run** in under 3 minutes on average.  
