@@ -1,0 +1,155 @@
+FACEBOOK POSTS SCRAPER - USAGE GUIDE
+===================================
+
+Overview
+--------
+The Facebook Posts Scraper automates the extraction of public post data from Facebook pages and profiles.
+It collects text, engagement metrics, timestamps, and post metadata, allowing you to export it in JSON or CSV formats.
+Ideal for market researchers, analysts, and social media managers.
+
+-------------------------------------------------------------
+
+Requirements
+------------
+- Python 3.9+
+- pip (Python package manager)
+- Internet connection
+- Optional: Proxy list for large-scale scraping
+
+-------------------------------------------------------------
+
+Installation
+------------
+1. Clone the repository:
+   git clone https://github.com/yourusername/facebook-posts-scraper.git
+   cd facebook-posts-scraper
+
+2. Create a virtual environment:
+   python3 -m venv .venv
+   source .venv/bin/activate        (macOS/Linux)
+   .venv\Scripts\activate           (Windows)
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+4. Configure environment variables (optional):
+   Copy `.env.example` to `.env` and set:
+     PROXY_URL=http://username:password@host:port
+     USER_AGENT=CustomUserAgentString
+
+5. Edit configuration in config/settings.json:
+   {
+     "resultsLimit": 10,
+     "startUrls": [
+       { "url": "https://m.facebook.com/nytimes" }
+     ],
+     "maxRequestRetries": 3,
+     "downloadThumbnails": false
+   }
+
+-------------------------------------------------------------
+
+Running the Scraper
+-------------------
+Option 1 - Run with Python:
+   python src/main.py
+
+Option 2 - Run with shell script:
+   ./run.sh
+
+The scraper will:
+   - Load start URLs from settings.json
+   - Fetch posts and related metadata
+   - Save results to data/output.json and data/sample.csv
+
+-------------------------------------------------------------
+
+Output Files
+------------
+- data/output.json     : Complete JSON data file.
+- data/sample.csv      : CSV version for Excel or Sheets.
+- data/thumbnails/     : Optional folder for downloaded images.
+
+Example JSON Record:
+{
+  "facebookUrl": "https://www.facebook.com/nytimes/",
+  "pageName": "The New York Times",
+  "url": "https://www.facebook.com/nytimes/posts/pfbid02...",
+  "time": "2023-04-06T07:10:00",
+  "likes": 9,
+  "comments": 17,
+  "shares": 3,
+  "text": "Sample post text",
+  "thumb": "https://example.com/image.jpg"
+}
+
+-------------------------------------------------------------
+
+Tips & Best Practices
+---------------------
+- Use m.facebook.com URLs (mobile version) for simpler HTML.
+- Respect Facebook’s public content policies.
+- Use residential proxies for better reliability.
+- Adjust "maxRequestRetries" to 5+ for large pages.
+- Set "downloadThumbnails" to true to save images.
+
+-------------------------------------------------------------
+
+Refreshing Scrapes
+------------------
+1. Update URLs in config/settings.json.
+2. Re-run the scraper.
+3. Data files will be replaced in /data directory.
+
+-------------------------------------------------------------
+
+Integrations
+------------
+You can integrate your exported data with:
+- Google Sheets, Excel, Airtable
+- Zapier, Slack, or Make.com automations
+- BI tools like Power BI or Tableau
+- Python analytics with Pandas
+
+-------------------------------------------------------------
+
+Troubleshooting
+---------------
+Problem: Empty results
+Cause: Private or invalid Facebook page
+Fix: Use public m.facebook.com links
+
+Problem: Slow scraping
+Cause: No proxies or throttling
+Fix: Add proxies to config/proxies.txt
+
+Problem: Missing images
+Cause: Thumbnails disabled
+Fix: Enable "downloadThumbnails": true in settings.json
+
+-------------------------------------------------------------
+
+Example Commands
+----------------
+# Run scraper
+python src/main.py
+
+# Clean previous data
+rm -rf data/output.json data/sample.csv
+
+# Run tests
+pytest -v
+
+-------------------------------------------------------------
+
+Support
+-------
+For advanced scraping or automation services:
+- Telegram: https://t.me/devpilot1
+- Discord: https://discordapp.com/users/headpilot
+- Email: support@appilot.app
+
+-------------------------------------------------------------
+
+Built with ❤️ by Bitbash Automation Team
+Helping you turn public web data into actionable insights.
