@@ -169,9 +169,55 @@ This project automates the collection of Facebook post data without manual scrol
 </a>
 </p>
 
+---
 
+<!-- 💬 User Reviews Section (3 in a row with GIFs) -->
+<table>
+  <tr>
+    <!-- Review 1 -->
+    <td align="center" width="33%" style="padding:10px;">
+      <img src="media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+      <h3 style="margin:10px 0 6px;">Facebook Posts Scraper Review</h3>
+      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
+        “This scraper helped me gather thousands of Facebook posts effortlessly.  
+        The setup was fast, and exports are super clean and well-structured.”
+      </p>
+      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington  
+        <br><span style="color:#888;">Marketer</span>  
+        <br><span style="color:#f5a623;">★★★★★</span>
+      </p>
+    </td>
+    <td align="center" width="33%" style="padding:10px;">
+      <img src="media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+      <h3 style="margin:10px 0 6px;">Data Quality & Accuracy</h3>
+      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
+        “What impressed me most was how accurate the extracted data is.  
+        Likes, comments, timestamps — everything aligns perfectly with real posts.”
+      </p>
+      <p style="margin:10px 0 0; font-weight:600;">Greg Jeffries  
+        <br><span style="color:#888;">SEO Affiliate Expert</span>  
+        <br><span style="color:#f5a623;">★★★★★</span>
+      </p>
+    </td>
+    <td align="center" width="33%" style="padding:10px;">
+      <img src="media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
+      <h3 style="margin:10px 0 6px;">Perfect for Market Research</h3>
+      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
+        “It’s by far the best Facebook scraping tool I’ve used.  
+        Ideal for trend tracking, competitor monitoring, and influencer insights.”
+      </p>
+      <p style="margin:10px 0 0; font-weight:600;">Karan  
+        <br><span style="color:#888;">Digital Strategist</span>  
+        <br><span style="color:#f5a623;">★★★★★</span>
+      </p>
+    </td>
+  </tr>
+</table>
 
-
-
+<!-- 📝 Instructions:
+  1️⃣ Place review1.gif, review2.gif, and review3.gif in your repo (same directory as README or /assets folder).
+  2️⃣ If stored elsewhere, update <img src="..."> paths accordingly.
+  3️⃣ This layout will render all three GIF-based reviews side-by-side in GitHub or web markdown.
+-->
 
 
