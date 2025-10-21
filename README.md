@@ -26,7 +26,7 @@
 
 <p align="center">
   Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  <strong>If you are looking for custom facebook-posts-scraper, you've just found your team — Let’s Chat.👆👆</strong>
+  <strong>If you are looking for custom Facebook posts scraper, you've just found your team — Let’s Chat.👆👆</strong>
 </p>
 
 
